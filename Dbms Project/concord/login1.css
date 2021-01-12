@@ -1,0 +1,88 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-size: 62.5%;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  background-image: url("img/login img.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  background-attachment:fixed;
+}
+
+.container{
+  background: white;
+  width: 60%;
+  padding: 40px;
+  margin: 60px auto;
+  opacity: 0.7;
+  min-height: 350px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.name{
+  /* background-color: black; */
+  color: black;
+  text-align: center;
+  border-right: 1px solid black;
+}
+
+.name > h1{
+  margin-top: 8rem;
+  font-size: 5rem;
+}
+
+.name>h2{
+  margin-top: 3rem;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.login{
+  /* background-color: blue; */
+  text-align: center;
+}
+
+h2{
+  font-size: 2rem;
+  font-family: cursive;
+}
+
+form{
+  display: block;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.top>i{
+  font-size: 5rem;
+  margin-bottom: 0.5rem;
+
+}
+input[type=email],input[type=password]{
+  margin: 2rem;
+  line-height: 2.5rem;
+  border-radius: 10px;
+  width: 60%;
+  background-color: #ddd;
+}
+
+input[type=submit]{
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  width: 30%;
+  line-height: 2rem;
+  background-color: #ddd;
+}
+
+input[type=submit]:hover{
+  background-color: #ccc;
+}
